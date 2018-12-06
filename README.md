@@ -18,4 +18,5 @@ In addition, the code should compile easily under GCC on Linux, but it has not b
 ## Reflection
 I chose to write the netwrok in C++ using Object-Oriented design rather than the more popular matrix-manipulation in languages like Python. This is just s personal preference, as I am more comfortable with the OO paradigm.
 The network definitely has some issues and is a bit unreliable - it produces good results most of the time it is ran, but there are cases when it gives close to 50% fail rate on the test set.
+In addition, the error rate seems to always have spikes, so it seems it might be falling victim to overtuning.
 Tweaking with the hyper parameters might help, but I would need to spend more time on it.
